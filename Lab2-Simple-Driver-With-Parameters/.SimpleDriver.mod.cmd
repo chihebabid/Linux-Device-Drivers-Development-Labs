@@ -1,0 +1,1 @@
+cmd_/home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/SimpleDriver.mod := { echo  /home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/SimpleDriver.o;  echo; } > /home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/SimpleDriver.mod

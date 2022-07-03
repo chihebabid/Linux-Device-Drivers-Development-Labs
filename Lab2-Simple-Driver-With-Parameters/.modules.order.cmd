@@ -1,0 +1,1 @@
+cmd_/home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/modules.order := {   echo /home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/SimpleDriver.ko; :; } | awk '!x[$$0]++' - > /home/chiheb/temp/Linux-Device-Drivers-Development-Labs/Lab2-Simple-Driver-With-Parameters/modules.order

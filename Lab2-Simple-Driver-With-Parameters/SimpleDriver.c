@@ -3,7 +3,7 @@
 #include <linux/kernel.h>
 
 
-static char name[100];
+static char *name="XXXXXXXXXXXXXXX";
 module_param(name, charp, 0644);
 MODULE_PARM_DESC(param, "Your name...");
 
