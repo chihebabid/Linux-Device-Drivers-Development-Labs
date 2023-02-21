@@ -5,3 +5,6 @@ Programs illustrate how to write simple chardev modules, and implementing some f
     - This module writes in the kernel log a message indicating the type of file operation performed on the file of the module : open, close, read and wite
 - Module program `SimpleReadWrite.c`
     - This module allows to write/read a message into/from device file
+- Module program `ChardevStack.c`
+    - Simulate a stack of chars. To push chars into the stack, write to the device file. To pop chars from the stack, read from the device file.
+
