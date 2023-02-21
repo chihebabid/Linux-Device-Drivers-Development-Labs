@@ -3,7 +3,7 @@
 #include <linux/fs.h>
 
 
-#define MY_MAJOR_NUM 205 // Major number
+#define MY_MAJOR_NUM 190 // Major number
 static struct cdev my_dev;
 static char ker_buf[100];
 static bool ker_read=false;
