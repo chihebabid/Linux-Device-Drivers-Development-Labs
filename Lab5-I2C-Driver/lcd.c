@@ -103,11 +103,11 @@ static int lcd_probe(struct i2c_client * client,const struct i2c_device_id * id)
 static void lcd_remove(struct i2c_client * client)
 {
     struct lcd_data * lcd;
-    dev_info(&client->dev,"lcd_remove is entered on %s\n", lcd->name);
     /* Get device structure from bus device context */
-    lcd = i2c_get_clientdata(client);    
+    lcd = i2c_get_clientdata(client);
+    dev_info(&client->dev,"lcd_remove is entered on %s\n", lcd->name);
     /* Deregister misc device */
-    misc_deregister(&lcd->lcd_miscdevice);    
+    misc_deregister(&lcd->lcd_miscdevice);
 }
 
 static const struct of_device_id lcd_dt_ids[] = {
