@@ -13,6 +13,6 @@ One has to add the following entries into the `arch/arm/boot/dts/bcm2710-rpi-3-b
 };
 ```
 
-In user space, the string to be displayed has to be sent to misc device file `/dev/lcd2x16`
+In user space, the string to be displayed has to be sent to misc device file `/dev/lcd2x16`.
 
 
